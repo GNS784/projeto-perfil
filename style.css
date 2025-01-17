@@ -1,0 +1,193 @@
+/*                                               CONFIGURAÇÕES GERAIS DO SITE
+*/
+
+@charset "UTF-8";
+@font-face {
+    font-family: gliker;
+    src: url(fonts/Gliker-Regular.ttf);
+}
+@font-face {
+    font-family: now;
+    src: url(fonts/now.thin.otf);
+}
+@font-face {
+    font-family: ruda;
+    src: url(fonts/ruda/Ruda-Medium.ttf);
+}
+:root{
+    --font01: "gliker";
+    --font02: "now"; 
+    --font03: "ruda";
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*                                                   CONFIGURAÇÃO DO CABEÇALHO
+*/      
+
+header{
+    background-image: url(imagens/fundo001.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top, left;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+#desfoque{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.336);
+}
+#conteudo_do_nome {
+    color: white;
+    width: 154px;
+    height: 70px;
+    padding: 5px;
+    border-radius: 10px;
+    position: relative;
+    top: 64%;
+    left: 45%;
+    transform: translate(-50px, -50px);
+}
+#nome_principal{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 15%;
+}
+#sobrenome{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 25%;
+}
+
+h1{
+    font-family: var(--font03);
+    font-size: 30px;
+    color: black;
+}
+p{
+    font-family: var(--font03);
+    margin-left: 2px;
+    font-size: 25px;
+}
+
+/*                                              PARTE DAS MIDIAS
+*/
+
+#midias{
+    height: 200px;
+}
+h2{
+    font-family: var(--font02);
+    font-size: 18px;
+    text-align: center;
+    padding: 40px 0px;
+}
+aside{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+img{
+    width: 40px;    
+    border-radius: 100%;
+    margin: 20px;  
+}
+
+/*                                       PARTE DO SAIBA MAIS
+*/
+
+#saibamais{
+    height: 400px;
+    background-color: black;
+    color: white;
+}
+
+h2{
+    font-family: var(--font02);
+    font-size: 18px;
+    text-align: center;
+    padding: 40px 0px;
+}
+#cxtexto01{
+    background-color: #b0b0b067;
+    padding: 10px;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+}
+#cxtexto01 > p{
+    font-size: 15px;
+    font-family: var(--font02);
+}
+
+/*                              PARTE DOS CONHECIMENTOS
+*/
+
+#conhecimentos{
+    height: 250px;
+}
+
+/*                               PARTE DOS PROJETOS
+*/
+
+#projetos{
+    background-color: black;
+    color: white;
+    height: 300px;
+}
+
+/*                          PARTE DA EMPRESA
+*/
+
+#empresa{
+    color: black;
+    height: 350px;
+}
+#box_flex{
+    display: flex;
+    align-items: center;
+}
+#cxtexto02{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 50%;
+    background-color: #b0b0b067;
+    margin-left: 20px;
+    color: black;
+}
+#cxtexto02 > p{
+    font-size: 10px;
+    font-family: var(--font02);
+}
+
+#img_do_site{
+    height: 100px;
+    width: 30%;
+    background-image: url(imagens/logo-lery.png);
+    background-size: cover;
+    background-position: center, center;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+/*                  PARTE FINAL DO SITE (RODAPÉ)
+*/
+
+#final{
+    background-color: black;
+    color: white;
+    height: 300px;
+}
+#final > p{
+    font-family: var(--font02);
+    font-size: 12px;
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+}
