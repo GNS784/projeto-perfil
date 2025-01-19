@@ -14,18 +14,6 @@
     }
 }
 @media screen and (min-width: 992px){
-    #nome_principal, #sobrenome > p{
-        font-family: var(--font03);
-        margin-left: 2px;
-        font-size: 40px;
-    }
-    
-    h1 {
-        font-family: var(--font03);
-        font-size: 70px;
-        color: black;
-        margin-bottom: -8px;
-    }
     h2{
         font-size: 40px;
     }
