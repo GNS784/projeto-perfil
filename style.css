@@ -37,10 +37,11 @@ section{
 */      
 
 header {
-    background-image: url(imagens/fundo001.png);
+    background-image: url(imagens/fundo001.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center, center;
+    background-position: top, center;
+    background-attachment: fixed;
     height: 50vw;
     background-color: rgba(0, 0, 0, 0.342);
 }
