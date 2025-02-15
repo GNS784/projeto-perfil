@@ -33,7 +33,7 @@ h2{
 section{
     padding: 10vw 0px;
 }
-/*                                   CONFIGURAÇÃO DO CABEÇALHO
+/*          CONFIGURAÇÃO DO CABEÇALHO
 */      
 
 header {
@@ -85,6 +85,8 @@ h1{
 
 /*                                     PARTE DAS MIDIAS
 */
+
+
 aside{
     display: flex;
     width: 100%;
@@ -93,8 +95,39 @@ aside{
 img{
     width: 8vw;    
     border-radius: 100%;
-    margin: 20px;  
 }
+.box_midia{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: center;
+}
+#box_img{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: center;
+}
+#img:hover{
+    transition: 0.5s;
+    background-color: black;
+}
+.box_midia:hover{
+    transition: 0.5s;
+    background-color: black;
+}
+#box_img:hover{
+    transition: 0.5s;
+    background-color: black;
+}
+
+
 
 /*                                       PARTE DO SAIBA MAIS
 */
